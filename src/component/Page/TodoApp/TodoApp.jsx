@@ -19,7 +19,6 @@ import {
 import './TodoApp.scss';
 import InputComponent from '../../Reuse/Input/InputComponent';
 import {v4 as uuidv4} from 'uuid';
-import TodoList from './TodoList';
 
 const TodoApp = () => {
     const columns = [
