@@ -101,7 +101,7 @@ const TodoApp = () => {
 
     const getArray = JSON.parse(localStorage.getItem("Todo"));
 
-    const [arrayToDo, setArrayToDo] = useState(getArray.lenght !==0 ? getArray : []);
+    const [arrayToDo, setArrayToDo] = useState(getArray ? getArray : []);
     const [firstClone, setFirstClone] = useState(arrayToDo);
     const [stringIn, setStringIn] = useState('');
     const [isEdit, setIsEdit] = useState(false);
