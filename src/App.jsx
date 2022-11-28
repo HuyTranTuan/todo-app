@@ -2,7 +2,7 @@ import React, {} from "react"
 import TodoApp from "./component/Page/TodoApp/TodoApp";
 
 import "./App.scss";
-import 'antd/dist/antd.min.css'
+// import 'antd/dist/antd.min.css'
 
 
 
