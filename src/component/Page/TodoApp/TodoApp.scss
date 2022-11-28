@@ -1,0 +1,62 @@
+
+@import '../../UseTogether.scss';
+
+.todo-page{
+    text-align: center;
+    padding: 20px;
+
+    .above{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+
+    .beneath{
+        .input-add{
+            @include displayCenter();
+            padding: 20px 10px;
+            gap: 20px;
+        }
+    
+        .table-container {
+            box-shadow: 3px 3px 25px 1px grey;
+            border-radius: 15px;
+            overflow: hidden;
+    
+            .ant-table-wrapper > .ant-spin-nested-loading > .ant-spin-container > ul {
+                margin-right: 10px;
+            }
+        }
+    
+        .ant-table-thead>tr>th{
+            background-color: $green !important;
+            
+            &:last-child{
+                width: 200px;
+                text-align: center;
+            }
+        }
+        
+        .ant-table-tbody>tr{
+            &:hover{
+                background-color: cadetblue !important;
+            }
+        
+            &>td:last-child{
+                width: 200px;
+                & div{
+                    @include displayCenter();
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

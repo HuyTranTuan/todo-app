@@ -1,0 +1,7 @@
+$green: #88B04B; 
+
+@mixin displayCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

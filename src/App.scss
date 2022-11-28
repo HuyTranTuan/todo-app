@@ -1,0 +1,5 @@
+@import "./component/UseTogether.scss";
+
+.container{
+  @include displayCenter();
+}
