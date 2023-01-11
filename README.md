@@ -1,5 +1,5 @@
 # This is my Todo application
-I deployed it in the 
+I deployed it in the [netlify](https://todo-react-no-be.netlify.app/)
 ## Available Scripts
 
 In the project directory, you can run:
